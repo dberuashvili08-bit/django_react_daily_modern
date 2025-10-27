@@ -1,0 +1,12 @@
+body{font-family:'Segoe UI',sans-serif;background:linear-gradient(135deg,#a8edea,#fed6e3);margin:0;display:flex;justify-content:center}
+.container{width:95%;max-width:960px;margin:40px auto}
+h1{text-align:center;color:#0984e3}
+.task-form{display:flex;gap:10px;flex-direction:column;background:#fff;padding:18px;border-radius:14px;box-shadow:0 6px 16px rgba(0,0,0,.15)}
+.task-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:18px}
+.task{background:#fff;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.12);padding:14px;transition:.2s}
+.task:hover{transform:translateY(-3px)}
+.task.completed h3{text-decoration:line-through;color:#636e72}
+button{background:#00b894;color:#fff;border:none;border-radius:8px;padding:10px 14px;cursor:pointer;transition:.2s}
+button:hover{background:#019875}
+.error{background:#ffe3e3;color:#b00020;padding:10px;border-radius:8px;margin-top:10px}
+.filters{display:flex;gap:8px;margin-top:12px}
